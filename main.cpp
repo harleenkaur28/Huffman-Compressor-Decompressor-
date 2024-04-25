@@ -6,9 +6,9 @@ using namespace std;
 int main()
 {   
     // Define input and output file paths
-      char* inputFilePath = "temp.txt";
-      char* compressedFilePath = "compressed2.bin";
-      char* decompressedFilePath = "decompress2.txt";
+      char* inputFilePath = "myfile.txt";            //Write the name of the text file you want to decompress
+      char* compressedFilePath = "compressed.bin";    //The Compressed File
+      char* decompressedFilePath = "decompress.txt";    //The Decoded Text File will appear with this name
 
     // Compression Function
     map<unsigned char,string> codes; // Map to store Huffman codes
